@@ -1,0 +1,3 @@
+rootProject.name = 'Feedly'
+
+include ':app'
