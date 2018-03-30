@@ -10,7 +10,7 @@ import NavigationUtil from "../common/utils/NavigationUtil";
 
 export default class Splash extends Component {
     static navigationOptions = {
-        header: null
+        header: null,
     };
 
     constructor(props) {
@@ -26,11 +26,12 @@ export default class Splash extends Component {
             toValue: 1.2,
             duration: 1000
         }).start();
-        SplashScreen.hide();
+        //SplashScreen.hide();
         this.timer = setTimeout(() => {
             store.get('isFirstInit').then((isFirst) => {
                 if (!isFirst) {
-                    navigate('Subscription', {isFirstInit: true})
+                    NavigationUtil.reset(this.props.navigation, 'Category');
+                    //navigate('Category', {isFirstInit: true})
                 } else {
                     NavigationUtil.reset(this.props.navigation, 'Home');
                 }
@@ -46,9 +47,11 @@ export default class Splash extends Component {
         return (
             <Animated.Text
                 style={{
+                    flex: 1,
+                    justifyContent: 'center',
+                    alignItems: 'center',
                     transform: [{scale: this.state.bounceValue}]
-                }}
-            >Welcome !!!</Animated.Text>
+                }}>Welcome !!!</Animated.Text>
         )
     }
 }

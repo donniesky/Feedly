@@ -4,6 +4,7 @@ import Home from "../ui/main/Home";
 import Settings from "../ui/Settings";
 import Subscription from "../ui/subscription/Subscription";
 import Splash from "../ui/Splash";
+import Category from "../ui/category/Category";
 
 export const Tabs = TabNavigator(
     {
@@ -37,26 +38,22 @@ export const Root = StackNavigator({
     Splash: {
         screen: Splash
     },
+    Category: {
+        screen: Category
+    },
     Tabs: {
         screen: Tabs,
         navigationOptions: {
             headerLeft: null
         }
-    },
-    Settings: {
-        screen: Settings,
-    },
+    }
 }, {
-    headerMode: 'screen',
     navigationOptions: {
         headerStyle: {
-            backgroundColor: 'orange'
+            backgroundColor: 'orange',
         },
         headerTitleStyle: {
-            color: '#fff',
-            fontSize: 20,
-            alignItems: 'center',
-            justifyContent: 'center'
+            alignSelf: 'center'
         },
         headerTintColor: '#fff'
     }

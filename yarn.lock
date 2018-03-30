@@ -46,7 +46,7 @@
 
 "@babel/helper-builder-react-jsx@7.0.0-beta.42":
   version "7.0.0-beta.42"
-  resolved "http://registry.npm.taobao.org/@babel/helper-builder-react-jsx/download/@babel/helper-builder-react-jsx-7.0.0-beta.42.tgz#719510a0aa45e9b02909f2e252420e62900c406a"
+  resolved "http://registry.npm.taobao.org/@babel/helper-builder-react-native-jsx/download/@babel/helper-builder-react-native-jsx-7.0.0-beta.42.tgz#719510a0aa45e9b02909f2e252420e62900c406a"
   dependencies:
     "@babel/types" "7.0.0-beta.42"
     esutils "^2.0.0"
@@ -316,22 +316,22 @@
 
 "@babel/plugin-transform-react-display-name@^7.0.0-beta":
   version "7.0.0-beta.42"
-  resolved "http://registry.npm.taobao.org/@babel/plugin-transform-react-display-name/download/@babel/plugin-transform-react-display-name-7.0.0-beta.42.tgz#48766efd74d65fb9116ede6354f73299d73e66b9"
+  resolved "http://registry.npm.taobao.org/@babel/plugin-transform-react-native-display-name/download/@babel/plugin-transform-react-native-display-name-7.0.0-beta.42.tgz#48766efd74d65fb9116ede6354f73299d73e66b9"
   dependencies:
     "@babel/helper-plugin-utils" "7.0.0-beta.42"
 
 "@babel/plugin-transform-react-jsx-source@^7.0.0-beta":
   version "7.0.0-beta.42"
-  resolved "http://registry.npm.taobao.org/@babel/plugin-transform-react-jsx-source/download/@babel/plugin-transform-react-jsx-source-7.0.0-beta.42.tgz#2c41adf060e76b9f0652591cfcdaddd192a21898"
+  resolved "http://registry.npm.taobao.org/@babel/plugin-transform-react-native-jsx-source/download/@babel/plugin-transform-react-native-jsx-source-7.0.0-beta.42.tgz#2c41adf060e76b9f0652591cfcdaddd192a21898"
   dependencies:
     "@babel/helper-plugin-utils" "7.0.0-beta.42"
     "@babel/plugin-syntax-jsx" "7.0.0-beta.42"
 
 "@babel/plugin-transform-react-jsx@^7.0.0-beta":
   version "7.0.0-beta.42"
-  resolved "http://registry.npm.taobao.org/@babel/plugin-transform-react-jsx/download/@babel/plugin-transform-react-jsx-7.0.0-beta.42.tgz#a25731396ca87b07f10362a950deab4526345fac"
+  resolved "http://registry.npm.taobao.org/@babel/plugin-transform-react-native-jsx/download/@babel/plugin-transform-react-native-jsx-7.0.0-beta.42.tgz#a25731396ca87b07f10362a950deab4526345fac"
   dependencies:
-    "@babel/helper-builder-react-jsx" "7.0.0-beta.42"
+    "@babel/helper-builder-react-native-jsx" "7.0.0-beta.42"
     "@babel/helper-plugin-utils" "7.0.0-beta.42"
     "@babel/plugin-syntax-jsx" "7.0.0-beta.42"
 
@@ -694,7 +694,7 @@ babel-helper-builder-binary-assignment-operator-visitor@^6.24.1:
 
 babel-helper-builder-react-jsx@^6.24.1:
   version "6.26.0"
-  resolved "http://registry.npm.taobao.org/babel-helper-builder-react-jsx/download/babel-helper-builder-react-jsx-6.26.0.tgz#39ff8313b75c8b65dceff1f31d383e0ff2a408a0"
+  resolved "http://registry.npm.taobao.org/babel-helper-builder-react-native-jsx/download/babel-helper-builder-react-native-jsx-6.26.0.tgz#39ff8313b75c8b65dceff1f31d383e0ff2a408a0"
   dependencies:
     babel-runtime "^6.26.0"
     babel-types "^6.26.0"
@@ -832,7 +832,7 @@ babel-plugin-jest-hoist@^22.4.3:
 
 babel-plugin-react-transform@^3.0.0:
   version "3.0.0"
-  resolved "http://registry.npm.taobao.org/babel-plugin-react-transform/download/babel-plugin-react-transform-3.0.0.tgz#402f25137b7bb66e9b54ead75557dfbc7ecaaa74"
+  resolved "http://registry.npm.taobao.org/babel-plugin-react-native-transform/download/babel-plugin-react-native-transform-3.0.0.tgz#402f25137b7bb66e9b54ead75557dfbc7ecaaa74"
   dependencies:
     lodash "^4.6.1"
 
@@ -1058,22 +1058,22 @@ babel-plugin-transform-object-rest-spread@^6.20.2, babel-plugin-transform-object
 
 babel-plugin-transform-react-display-name@^6.5.0, babel-plugin-transform-react-display-name@^6.8.0:
   version "6.25.0"
-  resolved "http://registry.npm.taobao.org/babel-plugin-transform-react-display-name/download/babel-plugin-transform-react-display-name-6.25.0.tgz#67e2bf1f1e9c93ab08db96792e05392bf2cc28d1"
+  resolved "http://registry.npm.taobao.org/babel-plugin-transform-react-native-display-name/download/babel-plugin-transform-react-native-display-name-6.25.0.tgz#67e2bf1f1e9c93ab08db96792e05392bf2cc28d1"
   dependencies:
     babel-runtime "^6.22.0"
 
 babel-plugin-transform-react-jsx-source@^6.5.0:
   version "6.22.0"
-  resolved "http://registry.npm.taobao.org/babel-plugin-transform-react-jsx-source/download/babel-plugin-transform-react-jsx-source-6.22.0.tgz#66ac12153f5cd2d17b3c19268f4bf0197f44ecd6"
+  resolved "http://registry.npm.taobao.org/babel-plugin-transform-react-native-jsx-source/download/babel-plugin-transform-react-native-jsx-source-6.22.0.tgz#66ac12153f5cd2d17b3c19268f4bf0197f44ecd6"
   dependencies:
     babel-plugin-syntax-jsx "^6.8.0"
     babel-runtime "^6.22.0"
 
 babel-plugin-transform-react-jsx@^6.5.0, babel-plugin-transform-react-jsx@^6.8.0:
   version "6.24.1"
-  resolved "http://registry.npm.taobao.org/babel-plugin-transform-react-jsx/download/babel-plugin-transform-react-jsx-6.24.1.tgz#840a028e7df460dfc3a2d29f0c0d91f6376e66a3"
+  resolved "http://registry.npm.taobao.org/babel-plugin-transform-react-native-jsx/download/babel-plugin-transform-react-native-jsx-6.24.1.tgz#840a028e7df460dfc3a2d29f0c0d91f6376e66a3"
   dependencies:
-    babel-helper-builder-react-jsx "^6.24.1"
+    babel-helper-builder-react-native-jsx "^6.24.1"
     babel-plugin-syntax-jsx "^6.8.0"
     babel-runtime "^6.22.0"
 
@@ -1142,8 +1142,8 @@ babel-preset-fbjs@^2.1.2, babel-preset-fbjs@^2.1.4:
     babel-plugin-transform-es3-property-literals "^6.8.0"
     babel-plugin-transform-flow-strip-types "^6.8.0"
     babel-plugin-transform-object-rest-spread "^6.8.0"
-    babel-plugin-transform-react-display-name "^6.8.0"
-    babel-plugin-transform-react-jsx "^6.8.0"
+    babel-plugin-transform-react-native-display-name "^6.8.0"
+    babel-plugin-transform-react-native-jsx "^6.8.0"
 
 babel-preset-jest@^22.4.3:
   version "22.4.3"
@@ -1154,10 +1154,10 @@ babel-preset-jest@^22.4.3:
 
 babel-preset-react-native@4.0.0, babel-preset-react-native@^4.0.0:
   version "4.0.0"
-  resolved "http://registry.npm.taobao.org/babel-preset-react-native/download/babel-preset-react-native-4.0.0.tgz#3df80dd33a453888cdd33bdb87224d17a5d73959"
+  resolved "http://registry.npm.taobao.org/babel-preset-react-native-native/download/babel-preset-react-native-native-4.0.0.tgz#3df80dd33a453888cdd33bdb87224d17a5d73959"
   dependencies:
     babel-plugin-check-es2015-constants "^6.5.0"
-    babel-plugin-react-transform "^3.0.0"
+    babel-plugin-react-native-transform "^3.0.0"
     babel-plugin-syntax-async-functions "^6.5.0"
     babel-plugin-syntax-class-properties "^6.5.0"
     babel-plugin-syntax-dynamic-import "^6.18.0"
@@ -1181,12 +1181,12 @@ babel-preset-react-native@4.0.0, babel-preset-react-native@^4.0.0:
     babel-plugin-transform-flow-strip-types "^6.5.0"
     babel-plugin-transform-object-assign "^6.5.0"
     babel-plugin-transform-object-rest-spread "^6.5.0"
-    babel-plugin-transform-react-display-name "^6.5.0"
-    babel-plugin-transform-react-jsx "^6.5.0"
-    babel-plugin-transform-react-jsx-source "^6.5.0"
+    babel-plugin-transform-react-native-display-name "^6.5.0"
+    babel-plugin-transform-react-native-jsx "^6.5.0"
+    babel-plugin-transform-react-native-jsx-source "^6.5.0"
     babel-plugin-transform-regenerator "^6.5.0"
     babel-template "^6.24.1"
-    react-transform-hmr "^1.0.4"
+    react-native-transform-hmr "^1.0.4"
 
 babel-register@^6.24.1, babel-register@^6.26.0:
   version "6.26.0"
@@ -1638,7 +1638,7 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
 
 create-react-class@^15.6.3:
   version "15.6.3"
-  resolved "http://registry.npm.taobao.org/create-react-class/download/create-react-class-15.6.3.tgz#2d73237fb3f970ae6ebe011a9e66f46dbca80036"
+  resolved "http://registry.npm.taobao.org/create-react-native-class/download/create-react-native-class-15.6.3.tgz#2d73237fb3f970ae6ebe011a9e66f46dbca80036"
   dependencies:
     fbjs "^0.8.9"
     loose-envify "^1.3.1"
@@ -2467,7 +2467,7 @@ hoek@4.x.x:
 
 hoist-non-react-statics@^2.2.0, hoist-non-react-statics@^2.3.1:
   version "2.5.0"
-  resolved "http://registry.npm.taobao.org/hoist-non-react-statics/download/hoist-non-react-statics-2.5.0.tgz#d2ca2dfc19c5a91c5a6615ce8e564ef0347e2a40"
+  resolved "http://registry.npm.taobao.org/hoist-non-react-native-statics/download/hoist-non-react-native-statics-2.5.0.tgz#d2ca2dfc19c5a91c5a6615ce8e564ef0347e2a40"
 
 home-or-tmp@^2.0.0:
   version "2.0.0"
@@ -3583,9 +3583,9 @@ metro@^0.28.0:
     "@babel/plugin-transform-modules-commonjs" "^7.0.0-beta"
     "@babel/plugin-transform-object-assign" "^7.0.0-beta"
     "@babel/plugin-transform-parameters" "^7.0.0-beta"
-    "@babel/plugin-transform-react-display-name" "^7.0.0-beta"
-    "@babel/plugin-transform-react-jsx" "^7.0.0-beta"
-    "@babel/plugin-transform-react-jsx-source" "^7.0.0-beta"
+    "@babel/plugin-transform-react-native-display-name" "^7.0.0-beta"
+    "@babel/plugin-transform-react-native-jsx" "^7.0.0-beta"
+    "@babel/plugin-transform-react-native-jsx-source" "^7.0.0-beta"
     "@babel/plugin-transform-regenerator" "^7.0.0-beta"
     "@babel/plugin-transform-shorthand-properties" "^7.0.0-beta"
     "@babel/plugin-transform-spread" "^7.0.0-beta"
@@ -3600,7 +3600,7 @@ metro@^0.28.0:
     babel-plugin-external-helpers "^6.22.0"
     babel-preset-es2015-node "^6.1.1"
     babel-preset-fbjs "^2.1.4"
-    babel-preset-react-native "^4.0.0"
+    babel-preset-react-native-native "^4.0.0"
     babel-register "^6.24.1"
     babylon "^6.18.0"
     chalk "^1.1.1"
@@ -4277,42 +4277,42 @@ rc@^1.1.7:
 
 react-clone-referenced-element@^1.0.1:
   version "1.0.1"
-  resolved "http://registry.npm.taobao.org/react-clone-referenced-element/download/react-clone-referenced-element-1.0.1.tgz#2bba8c69404c5e4a944398600bcc4c941f860682"
+  resolved "http://registry.npm.taobao.org/react-native-clone-referenced-element/download/react-native-clone-referenced-element-1.0.1.tgz#2bba8c69404c5e4a944398600bcc4c941f860682"
 
 react-deep-force-update@^1.0.0:
   version "1.1.1"
-  resolved "http://registry.npm.taobao.org/react-deep-force-update/download/react-deep-force-update-1.1.1.tgz#bcd31478027b64b3339f108921ab520b4313dc2c"
+  resolved "http://registry.npm.taobao.org/react-native-deep-force-update/download/react-native-deep-force-update-1.1.1.tgz#bcd31478027b64b3339f108921ab520b4313dc2c"
 
 react-devtools-core@3.1.0:
   version "3.1.0"
-  resolved "http://registry.npm.taobao.org/react-devtools-core/download/react-devtools-core-3.1.0.tgz#eec2e9e0e6edb77772e2bfc7d286a296f55a261a"
+  resolved "http://registry.npm.taobao.org/react-native-devtools-core/download/react-native-devtools-core-3.1.0.tgz#eec2e9e0e6edb77772e2bfc7d286a296f55a261a"
   dependencies:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
 react-lifecycles-compat@^1.0.2:
   version "1.0.2"
-  resolved "http://registry.npm.taobao.org/react-lifecycles-compat/download/react-lifecycles-compat-1.0.2.tgz#551d8b1d156346e5fcf30ffac9b32ce3f78b8850"
+  resolved "http://registry.npm.taobao.org/react-native-lifecycles-compat/download/react-native-lifecycles-compat-1.0.2.tgz#551d8b1d156346e5fcf30ffac9b32ce3f78b8850"
 
 react-native-dismiss-keyboard@1.0.0:
   version "1.0.0"
-  resolved "http://registry.npm.taobao.org/react-native-dismiss-keyboard/download/react-native-dismiss-keyboard-1.0.0.tgz#32886242b3f2317e121f3aeb9b0a585e2b879b49"
+  resolved "http://registry.npm.taobao.org/react-native-native-dismiss-keyboard/download/react-native-native-dismiss-keyboard-1.0.0.tgz#32886242b3f2317e121f3aeb9b0a585e2b879b49"
 
 react-native-drawer-layout-polyfill@^1.3.2:
   version "1.3.2"
-  resolved "http://registry.npm.taobao.org/react-native-drawer-layout-polyfill/download/react-native-drawer-layout-polyfill-1.3.2.tgz#192c84d7a5a6b8a6d2be2c7daa5e4164518d0cc7"
+  resolved "http://registry.npm.taobao.org/react-native-native-drawer-layout-polyfill/download/react-native-native-drawer-layout-polyfill-1.3.2.tgz#192c84d7a5a6b8a6d2be2c7daa5e4164518d0cc7"
   dependencies:
-    react-native-drawer-layout "1.3.2"
+    react-native-native-drawer-layout "1.3.2"
 
 react-native-drawer-layout@1.3.2:
   version "1.3.2"
-  resolved "http://registry.npm.taobao.org/react-native-drawer-layout/download/react-native-drawer-layout-1.3.2.tgz#b9740d7663a1dc4f88a61b9c6d93d2d948ea426e"
+  resolved "http://registry.npm.taobao.org/react-native-native-drawer-layout/download/react-native-native-drawer-layout-1.3.2.tgz#b9740d7663a1dc4f88a61b9c6d93d2d948ea426e"
   dependencies:
-    react-native-dismiss-keyboard "1.0.0"
+    react-native-native-dismiss-keyboard "1.0.0"
 
 react-native-elements@^0.19.0:
   version "0.19.0"
-  resolved "http://registry.npm.taobao.org/react-native-elements/download/react-native-elements-0.19.0.tgz#737c5198bf7487f9986e2023826cd0bd7a500366"
+  resolved "http://registry.npm.taobao.org/react-native-native-elements/download/react-native-native-elements-0.19.0.tgz#737c5198bf7487f9986e2023826cd0bd7a500366"
   dependencies:
     lodash.isempty "^4.4.0"
     lodash.times "^4.3.2"
@@ -4321,29 +4321,29 @@ react-native-elements@^0.19.0:
 
 react-native-safe-area-view@^0.7.0:
   version "0.7.0"
-  resolved "http://registry.npm.taobao.org/react-native-safe-area-view/download/react-native-safe-area-view-0.7.0.tgz#38f5ab9368d6ef9e5d18ab64212938af3ec39421"
+  resolved "http://registry.npm.taobao.org/react-native-native-safe-area-view/download/react-native-native-safe-area-view-0.7.0.tgz#38f5ab9368d6ef9e5d18ab64212938af3ec39421"
   dependencies:
-    hoist-non-react-statics "^2.3.1"
+    hoist-non-react-native-statics "^2.3.1"
 
 react-native-simple-store@^1.3.0:
   version "1.3.0"
-  resolved "http://registry.npm.taobao.org/react-native-simple-store/download/react-native-simple-store-1.3.0.tgz#84953a7b007b8e3c50ec768478e98dc3636ef092"
+  resolved "http://registry.npm.taobao.org/react-native-native-simple-store/download/react-native-native-simple-store-1.3.0.tgz#84953a7b007b8e3c50ec768478e98dc3636ef092"
   dependencies:
     lodash.merge "4.6.0"
 
 react-native-splash-screen@^3.0.6:
   version "3.0.6"
-  resolved "http://registry.npm.taobao.org/react-native-splash-screen/download/react-native-splash-screen-3.0.6.tgz#c0bbf2c8ae40a313c4c7044f55e569414ff68332"
+  resolved "http://registry.npm.taobao.org/react-native-native-splash-screen/download/react-native-native-splash-screen-3.0.6.tgz#c0bbf2c8ae40a313c4c7044f55e569414ff68332"
 
 "react-native-tab-view@github:react-navigation/react-native-tab-view":
   version "0.0.74"
-  resolved "https://codeload.github.com/react-navigation/react-native-tab-view/tar.gz/36ebd834d78b841fc19778c966465d02fd1213bb"
+  resolved "https://codeload.github.com/react-native-navigation/react-native-native-tab-view/tar.gz/36ebd834d78b841fc19778c966465d02fd1213bb"
   dependencies:
     prop-types "^15.6.0"
 
 react-native-vector-icons@^4.5.0:
   version "4.5.0"
-  resolved "http://registry.npm.taobao.org/react-native-vector-icons/download/react-native-vector-icons-4.5.0.tgz#6b95619e64f62f05f579f74a01fe5640df95158b"
+  resolved "http://registry.npm.taobao.org/react-native-native-vector-icons/download/react-native-native-vector-icons-4.5.0.tgz#6b95619e64f62f05f579f74a01fe5640df95158b"
   dependencies:
     lodash "^4.0.0"
     prop-types "^15.5.10"
@@ -4351,7 +4351,7 @@ react-native-vector-icons@^4.5.0:
 
 react-native@0.54.3:
   version "0.54.3"
-  resolved "http://registry.npm.taobao.org/react-native/download/react-native-0.54.3.tgz#e32807ab7ddc70811418101b73a482639d09ccca"
+  resolved "http://registry.npm.taobao.org/react-native-native/download/react-native-native-0.54.3.tgz#e32807ab7ddc70811418101b73a482639d09ccca"
   dependencies:
     absolute-path "^0.0.0"
     art "^0.10.0"
@@ -4369,7 +4369,7 @@ react-native@0.54.3:
     commander "^2.9.0"
     compression "^1.7.1"
     connect "^3.6.5"
-    create-react-class "^15.6.3"
+    create-react-native-class "^15.6.3"
     debug "^2.2.0"
     denodeify "^1.2.1"
     envinfo "^3.0.0"
@@ -4397,9 +4397,9 @@ react-native@0.54.3:
     pretty-format "^4.2.1"
     promise "^7.1.1"
     prop-types "^15.5.8"
-    react-clone-referenced-element "^1.0.1"
-    react-devtools-core "3.1.0"
-    react-timer-mixin "^0.13.2"
+    react-native-clone-referenced-element "^1.0.1"
+    react-native-devtools-core "3.1.0"
+    react-native-timer-mixin "^0.13.2"
     regenerator-runtime "^0.11.0"
     rimraf "^2.5.4"
     semver "^5.0.3"
@@ -4414,27 +4414,27 @@ react-native@0.54.3:
 
 react-navigation@^1.5.8:
   version "1.5.8"
-  resolved "http://registry.npm.taobao.org/react-navigation/download/react-navigation-1.5.8.tgz#f04bec1a39af8cfcf651337d351e8d0a144f1b6d"
+  resolved "http://registry.npm.taobao.org/react-native-navigation/download/react-native-navigation-1.5.8.tgz#f04bec1a39af8cfcf651337d351e8d0a144f1b6d"
   dependencies:
     clamp "^1.0.1"
-    hoist-non-react-statics "^2.2.0"
+    hoist-non-react-native-statics "^2.2.0"
     path-to-regexp "^1.7.0"
     prop-types "^15.5.10"
-    react-lifecycles-compat "^1.0.2"
-    react-native-drawer-layout-polyfill "^1.3.2"
-    react-native-safe-area-view "^0.7.0"
-    react-native-tab-view "github:react-navigation/react-native-tab-view"
+    react-native-lifecycles-compat "^1.0.2"
+    react-native-native-drawer-layout-polyfill "^1.3.2"
+    react-native-native-safe-area-view "^0.7.0"
+    react-native-native-tab-view "github:react-native-navigation/react-native-native-tab-view"
 
 react-proxy@^1.1.7:
   version "1.1.8"
-  resolved "http://registry.npm.taobao.org/react-proxy/download/react-proxy-1.1.8.tgz#9dbfd9d927528c3aa9f444e4558c37830ab8c26a"
+  resolved "http://registry.npm.taobao.org/react-native-proxy/download/react-native-proxy-1.1.8.tgz#9dbfd9d927528c3aa9f444e4558c37830ab8c26a"
   dependencies:
     lodash "^4.6.1"
-    react-deep-force-update "^1.0.0"
+    react-native-deep-force-update "^1.0.0"
 
 react-test-renderer@16.3.0-alpha.1:
   version "16.3.0-alpha.1"
-  resolved "http://registry.npm.taobao.org/react-test-renderer/download/react-test-renderer-16.3.0-alpha.1.tgz#33321032f21fba4aa038da74f02b06d4978f4ce4"
+  resolved "http://registry.npm.taobao.org/react-native-test-renderer/download/react-native-test-renderer-16.3.0-alpha.1.tgz#33321032f21fba4aa038da74f02b06d4978f4ce4"
   dependencies:
     fbjs "^0.8.16"
     object-assign "^4.1.1"
@@ -4442,18 +4442,18 @@ react-test-renderer@16.3.0-alpha.1:
 
 react-timer-mixin@^0.13.2:
   version "0.13.3"
-  resolved "http://registry.npm.taobao.org/react-timer-mixin/download/react-timer-mixin-0.13.3.tgz#0da8b9f807ec07dc3e854d082c737c65605b3d22"
+  resolved "http://registry.npm.taobao.org/react-native-timer-mixin/download/react-native-timer-mixin-0.13.3.tgz#0da8b9f807ec07dc3e854d082c737c65605b3d22"
 
 react-transform-hmr@^1.0.4:
   version "1.0.4"
-  resolved "http://registry.npm.taobao.org/react-transform-hmr/download/react-transform-hmr-1.0.4.tgz#e1a40bd0aaefc72e8dfd7a7cda09af85066397bb"
+  resolved "http://registry.npm.taobao.org/react-native-transform-hmr/download/react-native-transform-hmr-1.0.4.tgz#e1a40bd0aaefc72e8dfd7a7cda09af85066397bb"
   dependencies:
     global "^4.3.0"
-    react-proxy "^1.1.7"
+    react-native-proxy "^1.1.7"
 
 react@16.3.0-alpha.1:
   version "16.3.0-alpha.1"
-  resolved "http://registry.npm.taobao.org/react/download/react-16.3.0-alpha.1.tgz#de20f646e31e8b3c004e6bcbd3c54d51b48e1120"
+  resolved "http://registry.npm.taobao.org/react-native/download/react-native-16.3.0-alpha.1.tgz#de20f646e31e8b3c004e6bcbd3c54d51b48e1120"
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"
