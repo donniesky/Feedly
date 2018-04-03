@@ -12,4 +12,17 @@ export default class Repository {
         return this.remote.fetchSuggestion();
     }
 
+    fetchRecommendations(topic) {
+        return this.remote.fetchRecommendations(topic);
+    }
+
+    search(word, pageSize) {
+        return this.remote.search(word, pageSize);
+    }
+
+    fetchFeedContents(feedIds, pageSize) {
+
+        return this.remote.fetchFeedContents(feedIds, pageSize);
+    }
+
 }

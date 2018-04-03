@@ -44,14 +44,16 @@ export default class Splash extends Component {
     }
 
     render() {
-        return (
-            <Animated.Text
-                style={{
-                    flex: 1,
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                    transform: [{scale: this.state.bounceValue}]
-                }}>Welcome !!!</Animated.Text>
+        return (<View style={{
+                flex: 1,
+                justifyContent: 'center'
+            }}>
+                <Animated.Text
+                    style={{
+                        fontSize: 50,
+                        transform: [{scale: this.state.bounceValue}]
+                    }}>Welcome !!!</Animated.Text>
+            </View>
         )
     }
 }

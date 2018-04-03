@@ -3,6 +3,30 @@ export var REMOTE = {
 };
 export default class RemoteDataSource {
 
+    fetchFeedContents(feedIds, pageSize) {
+        let isOk;
+        return new Promise((resolve, reject) => {
+            fetch('https://feedly.com/v3/streams/contents?streamId='
+                + feedIds + '&count=' + pageSize + '&ranked=newest', {
+                method: 'get',
+                headers: {
+                    'Content-Type': 'application/json;charset=utf-8',
+                }
+            }).then(response => {
+                isOk = response.ok;
+                return response.json();
+            }).then(result => {
+                if (isOk) {
+                    resolve(result);
+                } else {
+                    reject(result);
+                }
+            }).catch(error => {
+                reject(error);
+            });
+        })
+    }
+
     fetchSuggestion() {
         let isOk;
         return new Promise((resolve, reject) => {
@@ -25,6 +49,50 @@ export default class RemoteDataSource {
                 reject(error);
             });
         });
+    }
+
+    fetchRecommendations(topic) {
+        let isOk;
+        return new Promise((resolve, reject) => {
+            fetch('https://feedly.com/v3/recommendations/topics/' + topic +
+                '?context=discover&locale=zh', {
+                method: 'get',
+                headers: {
+                    'Content-Type': 'application/json;charset=utf-8',
+                }
+            }).then((response) => {
+                isOk = response.ok;
+                return response.json();
+            }).then((result) => {
+                if (isOk) {
+                    resolve(result.relatedTopics);
+                } else {
+                    reject(result);
+                }
+            }).catch((error) => {
+                reject(error);
+            });
+        })
+    }
+
+    search(word, pageSize) {
+        let isOk;
+        return new Promise((resolve, reject) => {
+            fetch('https://feedly.com/v3/search/feeds?q=' + word + '&n=' + pageSize +
+                '&fullTerm=false&organic=true&promoted=true&locale=zh')
+                .then((response) => {
+                    isOk = response.ok;
+                    return response.json();
+                }).then((result) => {
+                if (isOk) {
+                    resolve(result);
+                } else {
+                    reject(result);
+                }
+            }).catch((error) => {
+                reject(error);
+            });
+        })
     }
 
 }

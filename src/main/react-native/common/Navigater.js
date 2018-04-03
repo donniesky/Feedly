@@ -1,10 +1,10 @@
 import React from 'react';
 import {TabNavigator, StackNavigator, TabBarBottom} from 'react-navigation';
 import Home from "../ui/main/Home";
-import Settings from "../ui/Settings";
 import Subscription from "../ui/subscription/Subscription";
 import Splash from "../ui/Splash";
 import Category from "../ui/category/Category";
+import SearchPage from "../ui/search/SearchPage";
 
 export const Tabs = TabNavigator(
     {
@@ -34,12 +34,30 @@ export const Tabs = TabNavigator(
     }
 );
 
+export const CategoryStack = StackNavigator({
+    category: {
+        screen: Category
+    },
+    searchResult: {
+        screen: SearchPage
+    },
+    Tabs: {
+        screen: Tabs,
+        navigationOptions: {
+            headerLeft: null
+        }
+    }
+});
+
 export const Root = StackNavigator({
     Splash: {
         screen: Splash
     },
     Category: {
-        screen: Category
+        screen: CategoryStack,
+        navigationOptions: {
+            header: null
+        }
     },
     Tabs: {
         screen: Tabs,
