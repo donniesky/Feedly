@@ -14,7 +14,7 @@ export default class Subscription extends Component {
     static navigationOptions = ({navigation}) => ({
         title: '订阅',
         tabBarIcon: ({tintColor}) => (
-            <Icon name="label" size={25} color={tintColor}/>
+            <Icon name="reorder" size={25} color={tintColor}/>
         )
     });
 

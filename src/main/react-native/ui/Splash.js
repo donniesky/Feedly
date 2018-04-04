@@ -4,7 +4,6 @@ import {
     View,
     Animated
 } from 'react-native';
-import SplashScreen from 'react-native-splash-screen';
 import store from 'react-native-simple-store';
 import NavigationUtil from "../common/utils/NavigationUtil";
 
@@ -26,7 +25,6 @@ export default class Splash extends Component {
             toValue: 1.2,
             duration: 1000
         }).start();
-        //SplashScreen.hide();
         this.timer = setTimeout(() => {
             store.get('isFirstInit').then((isFirst) => {
                 if (!isFirst) {

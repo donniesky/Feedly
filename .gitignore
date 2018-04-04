@@ -26,9 +26,12 @@ project.xcworkspace
 #
 build/
 .idea
+.expo
+app.json
 .gradle
 local.properties
 *.iml
+*.jks
 
 # node.js
 #

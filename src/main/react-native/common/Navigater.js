@@ -5,6 +5,9 @@ import Subscription from "../ui/subscription/Subscription";
 import Splash from "../ui/Splash";
 import Category from "../ui/category/Category";
 import SearchPage from "../ui/search/SearchPage";
+import FeedDetailPage from "../ui/detail/FeedDetailPage";
+import WebViewPage from "../ui/detail/WebViewPage";
+import ChoosePage from "../ui/category/ChoosePage";
 
 export const Tabs = TabNavigator(
     {
@@ -38,8 +41,8 @@ export const CategoryStack = StackNavigator({
     category: {
         screen: Category
     },
-    searchResult: {
-        screen: SearchPage
+    choose: {
+        screen: ChoosePage
     },
     Tabs: {
         screen: Tabs,
@@ -61,9 +64,18 @@ export const Root = StackNavigator({
     },
     Tabs: {
         screen: Tabs,
+    },
+    Search: {
+        screen: SearchPage,
         navigationOptions: {
-            headerLeft: null
+            header: null
         }
+    },
+    detail: {
+        screen: FeedDetailPage
+    },
+    webView: {
+        screen: WebViewPage
     }
 }, {
     navigationOptions: {
@@ -71,7 +83,9 @@ export const Root = StackNavigator({
             backgroundColor: 'orange',
         },
         headerTitleStyle: {
-            alignSelf: 'center'
+            alignSelf: 'center',
+            fontWeight: 'bold',
+
         },
         headerTintColor: '#fff'
     }

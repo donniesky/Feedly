@@ -37,7 +37,7 @@ export default class Category extends Component {
     renderRowItem(rowData) {
         return (<TouchableOpacity style={{flex: 1}}
                                   onPress={() => {
-                                      this.props.navigation.navigate('searchResult', {rowData})
+                                      this.props.navigation.navigate('choose', {rowData})
                                   }}>
             <View style={styles.card}>
                 <ImageBackground
